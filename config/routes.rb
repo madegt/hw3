@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   resources "places"
   # get "places", :controller => "places", :action => "index"
 
+  resources "entries"
 
 end
